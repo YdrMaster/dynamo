@@ -113,7 +113,7 @@ minijinja = { version = "2.10.2", features = ["loader"] }
 minijinja-contrib = { version = "2.10.2", features = ["pycompat"] }
 
 # GGUF
-ggus = "0.4.0"
+ggus = "0.5.1"
 memmap2 = "0.9.5"
 
 # Publishers

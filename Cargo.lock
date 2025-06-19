@@ -1457,9 +1457,9 @@ dependencies = [
 
 [[package]]
 name = "digit-layout"
-version = "0.2.0"
+version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "09157630eece4139f6cc5a457556d308c3465ecd5af492f0e5aadc043997e2ce"
+checksum = "21cba97b8c9bd3d9a6381565825ddabba86ddcd3a3ba090f48f39c1217d7f0d4"
 dependencies = [
  "half",
 ]
@@ -1984,17 +1984,6 @@ dependencies = [
  "rayon-core",
  "smallvec",
  "zune-inflate",
-]
-
-[[package]]
-name = "fancy-regex"
-version = "0.14.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6e24cb5a94bcae1e5408b0effca5cd7172ea3c5755049c5f3af4cd283a165298"
-dependencies = [
- "bit-set",
- "regex-automata 0.4.9",
- "regex-syntax 0.8.5",
 ]
 
 [[package]]
@@ -2540,9 +2529,9 @@ dependencies = [
 
 [[package]]
 name = "ggml-quants"
-version = "0.0.0"
+version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a27693512784e0786212eb0bef841779a6337d2d04520ed475b4d5a864f98366"
+checksum = "b5e19ad18fcb0c1bc4f4ee534a17a6743055be2952ea6c51f094d0867a927d4e"
 dependencies = [
  "digit-layout",
  "half",
@@ -2551,15 +2540,15 @@ dependencies = [
 
 [[package]]
 name = "ggus"
-version = "0.4.0"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3ac5654356c6f7f6116905aeaf92ab002c3d03414ada5dbe0bb2e32aa5fea173"
+checksum = "fc099d0395c63a57e0e97069e1dfe23a2c1d9c72aaf16bab2648701316c341a5"
 dependencies = [
- "fancy-regex",
  "ggml-quants",
  "indexmap 2.9.0",
  "log",
  "num_enum",
+ "regex",
 ]
 
 [[package]]
